@@ -55,7 +55,19 @@ while True:
 
     if opcao == 3:
         id = int(input("Informe o número do ID do cliente:"))
-        a.atualiza_dados(id)
+        print(a.busca_info(id))
+        while True:
+            print("Informe qual dado deseja alterar: ")
+            sleep(1)
+            print("""
+            1 - Nome
+            2 - CPF
+            3 - Endereco
+            4 - Telefone
+            5 - Nenhuma
+            """)
+            info = int(input("Opção: "))
+
 
 
     if opcao == 5:
