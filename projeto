@@ -1,0 +1,8 @@
+Criar CRUD com o banco de dados mysql, o crud será sobre cadastro de clientes contendo
+(ID(que irá gerar de forma sequencial),Nome,cpf,endereco,setor,telefone.
+
+1 - Inserir novos cadastros
+2 - mostrar cadastros
+3 - atualizar cadastros
+4 - deletar cadastros
+5 - Sair
